@@ -1,1 +1,1 @@
-print("Hello World!")
+zprint("Hello World!")
