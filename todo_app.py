@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Custom CSS
-st.markdown("""
+st.markdown("
     <style>
     .task-card {
         background-color: #f8f9fa;
