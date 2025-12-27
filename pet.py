@@ -5,7 +5,7 @@ import io
 st.set_page_config(
     page_title="Pet Information", 
     page_icon="😺", 
-    layout="centered"
+    layout="wide"
 )
 
 st.title("😺 Pet Information")
@@ -40,10 +40,10 @@ if submitted:
         small_font = ImageFont.load_default()
         
         # Draw header
-        header_color = '#2563eb'
+        header_color = 'orange'
         draw.rectangle([(0, 0), (card_width, 70)], fill=header_color)
-        draw.text((20, 25), "PET INFORMATION", fill='orange', font=title_font)
-        draw.text((20, 50), pet_name, fill='orange', font=small_font)
+        draw.text((20, 25), "PET INFORMATION", fill='white', font=title_font)
+        draw.text((20, 50), pet_name, fill='white', font=small_font)
         
         # Draw photo
         photo_size = 90
